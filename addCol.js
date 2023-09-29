@@ -18,7 +18,7 @@
 // }
 
 // Implementation where addRow works:
-const table = document.getElementById("grid"); //get ref to table id grid
+//const table = document.getElementById("grid"); //get ref to table id grid // no longer needed as ref is in html file
 
 document.getElementById("addColumn").addEventListener("click", addColumn); //get the addcolumn element and add an event listener to it
 function addColumn() //func header
