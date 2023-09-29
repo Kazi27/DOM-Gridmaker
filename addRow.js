@@ -8,4 +8,3 @@ function addRow() { // Declared the fucntion
     }
 }
 
-
