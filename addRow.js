@@ -1,5 +1,5 @@
 //add row
-const table = document.getElementById("grid"); //get ref to table id grid
+// const table = document.getElementById("grid"); //get ref to table id grid // no longer needed as ref is in html file
 document.getElementById("addRow").addEventListener("click", addRow); // added an event handler that gets tje elemnt from the id "add row" Then it will execute the function 
 function addRow() { // Declared the fucntion 
     const newRow = table.insertRow(); // adds a mew row to the table
