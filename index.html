@@ -3,25 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DOM Gridmaker</title>
+    <title> Gridmaker</title>
+    <link rel="stylesheet" href="style.css">
+
 </head>
 
 <body>
-    <div>
-        <button id="addRow">Add Row</button>
-        <button id="addColumn">Add Col</button>
-        <button id="removeRow">Remove Row</button>
-        <button id="removeColumn">Remove Col</button>
-        <button id="colorAll">Fill All Uncolored</button>
-        <button id="colorUncolored">Fill all</button>
-        <button id="removeColors">Clear</button>
-        <select id="colorPicker">
-            <option value="select">SELECT</option>
-            <option value="red">Red</option>
-            <option value="green">Green</option>
-            <option value="blue">Blue</option>
-        </select>
+    <div class="main-container">
+        <!-- Buttons Container -->
+        <div class="btn-container">
+            <div class="control-group">
+                <button id="addRow">Add Row</button>
+                <button id="addColumn">Add Column</button>
+                <button id="removeRow">Remove Row</button>
+                <button id="removeColumn">Remove Column</button>
+            </div>
+            <div class="control-group">
+                <select id="colorPicker">
+                    <option value="select">Select</option>
+                    <option value="red">Red</option>
+                    <option value="green">Green</option>
+                    <option value="blue">Blue</option>
+                </select>
+                <button id="colorAll">Fill All Uncolored</button>
+                <button id="colorUncolored">Fill all</button>
+                <button id="removeColors">Clear</button>
+            </div>
+        </div>
+
+        <!-- Grid/Table Container -->
+        <div class="grid-container">
+            <table id="grid"></table>
+        </div>
     </div>
+
     
     <table id="grid"></table>
     <!-- get ref to table id grid -->

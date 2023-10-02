@@ -1,9 +1,40 @@
+/* Main container styles */
+.main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+}
+
+/* Grid/Table container styles */
+.grid-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 20px; /* Space between the buttons and the table */
+}
+
 table {
     border-collapse: collapse;
+    margin: 0 auto; /* Center the table inside the container */
+}
+
+.grid-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 20px; 
+}
+
+table {
+    border-collapse: collapse;
+    width: 2%; /* Added this line to make the table span the full width */
+    margin: 0 auto;
 }
 
 td {
-    width: 30px;
+    min-width: 30px; /* Change width to min-width */
     height: 30px;
     border: 1px solid black;
 }
