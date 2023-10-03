@@ -1,12 +1,21 @@
+h1{
+    text-decoration: underline;
+}
 table {
     border-collapse: collapse;
+    margin-top: 10px;
+    box-shadow: 0px 2px 8px rgba(0,0,0,0.5)
 }
 
-td {
+
+td 
+{
     width: 30px;
     height: 30px;
-    border: 1px solid black;
+    border: 1.8px solid black;
 }
+
+
 
 .button-container {
     text-align: center; /* Center-align horizontally */
