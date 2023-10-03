@@ -10,7 +10,10 @@ function colorAll() //function definiton/header
     {
         for (let cell of row.cells) //in each row, loop through each cell aka column loop
         {
-            cell.style.backgroundColor = document.getElementById("colorPicker").value; // Set the background color of current cell to color selected in the dropdown
+            if (!cell.style.backgroundColor) //checks if background color is undef or empty aka no background color is set aka uncolored. If false then !false -> true so u enter the for loop coloring the uncolored cell
+            {
+                cell.style.backgroundColor = document.getElementById("colorPicker").value; // Set the background color of current cell to color selected in the dropdown
+            }
         }
     }
 }
