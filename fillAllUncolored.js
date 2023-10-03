@@ -3,9 +3,11 @@
 //09/29 - the default action of user clicking a cell to turn color hasn't been implemented yet so we need to check if this works with that too
 
 document.getElementById("colorUncolored").addEventListener("click", colorUncolored); // Add click event listener to the element id colorUncolored button
+const colorPicker = document.getElementById("colorPicker"); //gets ref to input type colorPicker bby it's ID
 
 function colorUncolored() //function definiton/header
 {
+    const selectedColor = colorPicker.value; // Get the selected color from the color wheel
     for (let row of table.rows) //loop thru each row of the table
     {
         for (let cell of row.cells) //in each row, loop through each cell aka column loop
