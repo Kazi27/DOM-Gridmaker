@@ -1,9 +1,38 @@
+h1 {
+    text-decoration: underline;
+    text-align: center;
+    text-decoration-color: #747578;
+}
+
+h2 {
+    text-align: center;
+    -webkit-text-fill-color: #72728D;
+}
+
 table {
+    text-align: center;
     border-collapse: collapse;
+    margin-top: 10px;
+    box-shadow: 0px 2px 8px rgba(0,0,0,0.5);
+    margin: 0 auto;
 }
 
 td {
     width: 30px;
     height: 30px;
-    border: 1px solid black;
+    border: 1.8px solid black;
+}
+
+.button-container {
+    text-align: center; /* Center-align horizontally */
+    margin-top: 20px; /* add top margin for spacing */
+    margin-bottom: 20px; /* add bottom margin for spacing */
+}
+
+button {
+    margin: 5px; /* margin to separate the buttons */
+}
+
+body {
+    background-color: #E3E3E8; /* Gray background color */
 }
