@@ -7,3 +7,12 @@ td {
     height: 30px;
     border: 1px solid black;
 }
+
+.button-container {
+    text-align: center; /* Center-align horizontally */
+    margin-top: 20px; /* add top margin for spacing */
+}
+
+button {
+    margin: 5px; /* margin to separate the buttons */
+}
