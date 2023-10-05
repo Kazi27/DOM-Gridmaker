@@ -36,7 +36,3 @@ button {
 body {
     background-color: #E3E3E8; /* background color */
 }
-
-.table-container {
-    overflow: auto;
-}
