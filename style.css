@@ -15,8 +15,6 @@ table {
     margin-top: 10px;
     box-shadow: 0px 2px 8px rgba(0,0,0,0.5);
     margin: 0 auto;
-    max-width: 100%; /* maximum width, adds columns inside the grid */
-    max-height: 10%; /* maximum height, doesn't work for some reason? */
 }
 
 td {
@@ -36,5 +34,12 @@ button {
 }
 
 body {
-    background-color: #E3E3E8; /* Gray background color */
+    background-color: #E3E3E8; /* background color */
+}
+
+.table-container {
+    width: 1900px; /* desired width - 57 columns but user can still add more columns, except it just makes columns in already defined grid */
+    height: 870px; /* desired height - 21 rows but user can still add more rows, except it it just adds vertical scroll bars instead of expanding off screen*/
+    overflow: auto;
+    margin: 0 auto;
 }
