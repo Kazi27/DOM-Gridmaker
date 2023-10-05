@@ -38,7 +38,6 @@ body {
 }
 
 .table-container {
-    height: 870px; /* desired height - 21 rows but user can still add more rows, except it it just adds vertical scroll bars instead of expanding off screen*/
     overflow: auto;
     margin: 0 auto;
 }
