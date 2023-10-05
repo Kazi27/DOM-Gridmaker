@@ -9,15 +9,20 @@ To deepen your understanding of the DOM and how it interacts with HTML, JavsScri
 * 25% - GitHub Workflow
 
 # 👩🏽‍🚀 Features
-Gridmaker does the following:
-* click a button to add/remove column
-* click a button to add/remove row
-* select a color from a color wheel of colors / allows you to put any RGB code
-* click any cell and change its color to the one selected in the dropdown menu
+## Required: 
+Gridmaker does the required following:
+* click a button to add/remove a column
+* click a button to add/remove a row
+* drop-down of pre-selected red / blue / green colors (previous implementation, not on github pages)
 * click a button to color all cells with the color selected in the dropdown menu
 * click a button to color all uncolored cells with the color selected in the dropdown menu
 * click a button to remove the color from all cells
 
+## Extra: 
+Gridmaker does the additional following:
+* select a color from a color wheel of colors / allows you to put any RGB code (current implementation, on github pages)
+* when adding excess columns that cannot fit on the screen, the columns are made from within the grid itself
+* when adding excess rows that cannot fit on the screen, a vertical scroll bar for overflow appears
 
 # 📦 Dependencies:
 
