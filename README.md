@@ -12,7 +12,7 @@ To deepen your understanding of the DOM and how it interacts with HTML, JavsScri
 Gridmaker does the following:
 * click a button to add/remove column
 * click a button to add/remove row
-* select a color from a dropdown menu of colors
+* select a color from a color wheel of colors / allows you to put any RGB code
 * click any cell and change its color to the one selected in the dropdown menu
 * click a button to color all cells with the color selected in the dropdown menu
 * click a button to color all uncolored cells with the color selected in the dropdown menu
